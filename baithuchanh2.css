@@ -1,0 +1,196 @@
+*{box-sizing: border-box;}
+.bai1{
+    display: flex;
+    justify-content: center;
+}
+.bai1-container{
+    padding: 10px 0px 50px 0px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    justify-content: center;
+    text-align: center;
+}
+.bai1-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.bai2{
+    display: flex;
+    justify-content: center;
+
+}
+.bai2-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(240,248,255);
+    padding: 10px;
+}   
+.bai2-form-container{
+display: grid;
+grid-template-columns: 150px 200px;
+row-gap: 10px;
+column-gap: 10px;
+}
+.bai2-textarea{
+    margin-top: 10px;
+    width: 100%;
+    height: 100px;
+}
+.bai2-input{
+    padding: 5px;
+    border: none;
+}
+.btn-bai2{
+    width: 90px;
+    height: 30px;
+    margin: 10px;
+    background-color: rgb(0,191,255);
+    border: none;
+    color: white;
+}
+.line{
+    background-color: red;
+    height: 3px;
+    width: 500px;
+}
+.bai3-heading{
+  color: blue;
+}
+.bai3-form-heading{
+  color: blue;
+}
+.bai3-body{
+    display: flex;
+    background: rgb(245,255,250);
+     width: 500px;
+    height: 200px;
+}
+.bai3-info{
+    list-style: none;
+}
+.bai3-form {
+    display: flex;
+    flex-direction: column;
+    margin-inline-start: 10px;
+}
+.bai3-formcontainer{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+
+}
+.btn-bai3{
+    width: 80px;
+    height: 20px;
+    margin: 10px;
+    background-color: rgb(0,191,255);
+    border: none;
+    color: white;
+}
+
+
+.bai4{
+    width: 500px;
+    height: 500px;
+    background-image: url(https://cdn.glitch.global/5d872087-9033-49a6-9697-647e02feba6b/030bb86f8dd672d39b693cd94bfd1f4a.jpg?v=1710174737318);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bai4-container{
+    height: 450px;
+    width: 200px;
+    border: 3px solid black ;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+.bai4-heading{
+    color: white;
+    background: blue;
+    width: 100%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    text-align: center;
+    padding: 10px;
+}
+.bai4-form{
+    margin-top: 30px;
+}
+.bai4-button{
+    margin: 20px;
+    padding: 10px;
+    color: white;
+    background-color: blue;
+}
+
+.bai5{
+    width: 500px;
+    height: 200px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.bai5-container{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.bai5-btn{
+    color: white;
+    background-color: red;
+}
+
+.bai6{
+    width: 700px;
+    height: 500px;
+    background: rgb(2,0,36);
+    background-image: url(https://cdn.glitch.global/5d872087-9033-49a6-9697-647e02feba6b/030bb86f8dd672d39b693cd94bfd1f4a.jpg?v=1710174737318);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bai6-container{
+    width: 500px;
+    height: fit-content;
+    background: rgb(240,248,255);
+    background:       linear-gradient(to right, purple, pink);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+    border-radius: 10px;
+}
+.bai6-form i {
+    position: absolute;
+}
+.bai6-form >i{
+    padding: 17px;
+    min-width: 40px;
+}
+.bai6-input{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.bai6-2button{
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+}
+.bai6-button{
+margin: 10px;
+}
